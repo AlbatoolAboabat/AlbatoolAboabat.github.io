@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="image/v.png" type="image/png" sizes="16x16">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Tenali+Ramakrishna" rel="stylesheet">
+
+</head>
+<body>
+
+
+<header>
+<div id="back"> <a href="index.html#work"><img src="image/logo-black.png" width="82" height="133" alt=""/></a>
+ </div>
+ </header>
+
+
+
+<div class="w3-content" style="max-width:500px" align="center"  >
+ 
+  <img class="mySlides" src="image/big/stashunry2.png" style="width:100%">
+<!--<img class="mySlides" src="image/big/book-cover1.png" style="width:100%">-->
+</div>
+<div class="content" font-family: Philosopher>
+<h3>Packing</h3>
+<h3>TARWEQAH</h3>
+<h4 style="font-size: small">DATE:Jun 2017</h4>
+<p style="font-size: 18px">Morning coffee truck.Reusable packing system allow customer to eat safely. The color inspired from the sky and sun. The silicon material was used because it give more stability when it is ordered take away.  </p>
+</div>
+
+ <div class="footer">
+  <p>All rights recived &copy; Albatool Aboabat 2017</p>
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+
+</body>
+</html>
+

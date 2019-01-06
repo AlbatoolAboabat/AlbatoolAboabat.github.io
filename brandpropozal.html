@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href="image/v.png">
+      
+      
+<title>project</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="image/v.png" type="image/png" sizes="16x16">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Tenali+Ramakrishna" rel="stylesheet">
+
+</head>
+<body>
+
+
+<header>
+<div id="back">
+ <a href="index.html#work"><img src="image/logo-black.png" width="82" height="133" alt=""/></a> 
+ </div>
+ </header>
+
+
+<div class="w3-content" style="max-width:500px" align="center"  >
+ 
+  <img class="mySlides" src="image/big/stashunry0.png" style="width:100%">
+<img class="mySlides" src="image/big/stashunry4.png" style="width:100%">
+<img class="mySlides" src="image/big/stashunry3.png" style="width:100%">
+<img class="mySlides" src="image/big/stashunry5.png" style="width:100%">
+
+
+
+</div>
+<div class="content" font-family: Philosopher>
+<h3>Identity</h3>
+<h3>Muneerah Fashion designer</h3>
+<h4 style="font-size: small">DATE:MAY 2017</h4>
+<p style="font-size: 18px">This identity designed for the Saudi fashion designer (Muneerah alohaimer) who created her own fashion imprint by merging heritage and modernization. The logo consists of two letters (the first letter of her first and family name). The idea was using the most appropriate geometric forms for the letters inspired from the Saudi heritage.</p>
+</div>
+
+ <div class="footer">
+  <p>All rights recived &copy; Albatool Aboabat 2017</p>
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+
+</body>
+</html>
